@@ -3,7 +3,7 @@ import runpy
 import sys
 
 # Updated to the latest day completed.
-today = 5
+today = 6
 
 # Times the execution of a given day's solution
 def run_day(day):
