@@ -1,5 +1,4 @@
 import numpy as np
-from numpy.ma.core import asarray
 
 presents = np.loadtxt('days/day_02/input.txt', delimiter='x', dtype=int)
 
