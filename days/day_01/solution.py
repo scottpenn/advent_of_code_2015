@@ -1,10 +1,6 @@
 import numpy as np
-import timeit
 
-instructions = np.loadtxt('days/day_1/input.txt', dtype=str).item()
-
-# Begin
-start = timeit.default_timer()
+instructions = np.loadtxt('days/day_01/input.txt', dtype=str).item()
 
 floor = 0
 basement = 0
@@ -20,8 +16,3 @@ for i, instruction in enumerate(instructions):
 
 print(floor)
 print(basement)
-
-# End
-stop = timeit.default_timer()
-
-print('Time: ', stop - start)
